@@ -7,8 +7,8 @@ import { ArrowRightIcon } from "@radix-ui/react-icons";
 import { useInView } from "framer-motion";
 import { Info } from "lucide-react";
 import { useRef } from "react";
-import { AuroraText } from "../magicui/aurora-text";
-import { Safari } from "../magicui/safari";
+import { AuroraText } from "../atoms/aurora-text";
+import { Safari } from "../atoms/safari";
 
 export default function HeroSection() {
   const ref = useRef(null);

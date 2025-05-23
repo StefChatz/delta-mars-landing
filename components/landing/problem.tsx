@@ -1,4 +1,4 @@
-import BlurFade from "../magicui/blur-fade";
+import BlurFade from "../atoms/blur-fade";
 import Section from "../section";
 import { ArrowUpDown, Coins, Wallet } from "lucide-react";
 import { Card, CardContent } from "../ui/card";
