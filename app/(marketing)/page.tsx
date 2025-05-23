@@ -2,8 +2,10 @@ import ClientSection from "@/components/landing/client-section";
 import CallToActionSection from "@/components/landing/cta-section";
 import HeroSection from "@/components/landing/hero-section";
 import PricingSection from "@/components/landing/pricing-section";
-import Particles from "@/components/magicui/particles";
-import { SphereMask } from "@/components/magicui/sphere-mask";
+import Particles from "@/components/delta-mars/particles";
+import { SphereMask } from "@/components/delta-mars/sphere-mask";
+import Problem from "@/components/landing/problem";
+import HowItWorks from "@/components/landing/how-it-works";
 
 export default async function Page() {
   return (
@@ -11,8 +13,11 @@ export default async function Page() {
       <HeroSection />
       <ClientSection />
       <SphereMask />
-      <PricingSection />
-      <CallToActionSection />
+      <Problem />
+      <HowItWorks />
+      {/* <PricingSection />
+       */}
+      {/* <CallToActionSection /> */}
       <Particles
         className="absolute inset-0 -z-10"
         quantity={50}
